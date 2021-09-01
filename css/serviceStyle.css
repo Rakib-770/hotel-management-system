@@ -1,0 +1,91 @@
+
+.information {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 50%;
+  left: -10;
+  transform: : translateY(-50%);
+}
+#circle {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 380px;
+  left: 0;
+  border-radius: 50%;
+  transform: rotate(0deg);
+  transition: 1s;
+}
+.feature img{
+  width: 100px;
+}
+.feature {
+  position: absolute;
+  display: flex;
+  color: #fff;
+}
+.feature div{
+  margin-left: 30px;
+}
+.feature div p{
+  margin-top: 2px;
+}
+.one{
+  top: 450px;
+  right: -250px;
+}
+.two{
+  top: -120px;
+  left: 300px;
+  transform: rotate(-90deg);
+}
+.three{
+  bottom: 430px;
+  left: -200px;
+  transform: rotate(-180deg);
+}
+.four{
+  bottom: -80px;
+  right: 250px;
+  transform: rotate(-270deg);
+}
+.gallery1{
+  width: 450px;
+  position: absolute;
+  top: 90%;
+  left: 35%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.controls{
+  position: absolute;
+  right: 10%;
+  top: 150%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.controls h2{
+  margin: 15px 0;
+  color: #fff;
+}
+#upbtn{
+  width: 15px;
+  cursor: pointer;
+}
+#downbtn{
+  width: 15px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+.overlay{
+  width: 0;
+  height: 0;
+  border-top: 800px solid #fff;
+  border-right: 800px solid transparent;
+  border-bottom: 800px solid #fff;
+  border-left: 800px solid #fff;
+  position: absolute;
+  left: -350px;
+  top: 45px;
+}
